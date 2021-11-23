@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    @include flex($align: none);
+    flex-direction: column;
+    font-size: 1.6rem;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(42, 195, 255), rgb(15, 241, 223)); 
+}
+main {
+    min-height: calc(100vh - 10vh - 108px);
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    height: 100%;
+    @include media-mobile {
+        padding: 20px 20px;
+    }
+}

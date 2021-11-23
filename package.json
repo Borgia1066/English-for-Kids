@@ -1,0 +1,52 @@
+{
+  "name": "English-for-Kids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "scripts": {
+    "style": "sass --watch src/sass/style.scss src/style.css",
+    "dev": "npx webpack --mode development",
+    "prod": "npx webpack --mode production",
+    "lint": "eslint ./src/js/Game_mode.js",
+    "lint:fix": "eslint ./src/js/Generate_table.js --fix",
+    "test": "eslint src/**/*.js",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open Chrome.exe",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borgia1066/English-for-Kids.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borgia1066/English-for-Kids/issues"
+  },
+  "homepage": "https://github.com/Borgia1066/English-for-Kids#readme"
+}

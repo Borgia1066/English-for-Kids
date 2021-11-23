@@ -1,0 +1,16 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+@include normalize();
+
+@import "./Main/mixins";
+@import "./Main/hamburger";
+@import "./Main/main-styles";
+@import "./Main/card";
+@import "./Main/switch-button";
+@import "./Main/play-button";
+@import "./Main/stats-button";
+@import "./Main/table";
+@import "./Sections/header";
+@import "./Sections/footer";
+@import "./Sections/navigation";
+@import "./Sections/main";
+
